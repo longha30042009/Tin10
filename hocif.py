@@ -1,4 +1,4 @@
-# Online Python - IDE, Editor, Compiler, Interpreter
+# cho 3 so a,b,c lay a-b= c hoac ko =c ghi hien ket qua
 
 def timchanle(a,b,c): # 10,5,5
     if a-b==c: #10-5==5 
