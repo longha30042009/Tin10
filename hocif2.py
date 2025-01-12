@@ -17,10 +17,49 @@ def timchanle(a,b):
 
     print("cuoi ham")
 
+
+def timchanle2(a,b):
+    if a<0 or b<0:
+        print("a hoac b la so am")
+        
+    else:
+        if a%2==0 and b%2==0:
+            print("a va b deu la chan") 
+        elif a%2!=0 and b%2==0:
+            print("a la so le, b la so chan")
+        elif a%2==0 and b%2!=0:
+            print("a la so chan, b la so le")
+        elif a%2!=0 and b%2!=0:
+            print("a la so le, b  la so  le")    
+
+
+    print("cuoi ham")
+
+
+
+
+def timchanle3(a,b):
+    if a<0 or b<0:
+        print("a hoac b la so am")
+        
+    else:
+        if a%2==0 and b%2==0:
+            print("a va b deu la chan") 
+        elif a%2!=0 and b%2==0:
+            print("a la so le, b la so chan")
+        elif a%2==0 and b%2!=0:
+            print("a la so chan, b la so le")
+        else:
+            print("a la so le, b  la so  le")    
+
+
+    print("cuoi ham")
+
+
 a = int(input('so 1  '))
 b = int(input('so 2  '))
 
-timchanle(a,b)
+timchanle3(a,b)
 
 
 # lanthu 1
