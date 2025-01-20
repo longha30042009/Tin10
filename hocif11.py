@@ -18,7 +18,33 @@ def amduong(a,b):
 
 
 
+# a=-50
+# b=10
+
+# amduong(a,b)
+
+
+
+def amduong2(a,b):
+    if(a>0 and b<0)or(a<0 and b>0):
+        print("ketqua=",a-5+b+15)
+
+
+    else:
+        print("ko co kq")
+
+
 a=-50
 b=10
 
-amduong(a,b)
+# amduong2(a,b)
+
+def amduong3(a,b):
+    if(a>0 and b<0)or(a<0 and b>0):
+        c = a-5+b+15
+        print("ketqua=",c)
+
+
+    else:
+        print("ko co kq")
+amduong3(a,b)
